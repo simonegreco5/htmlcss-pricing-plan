@@ -1,0 +1,52 @@
+/* -- preset css -- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* header */
+.side_top {
+    padding: 2.5rem 3.5rem;
+    display: flex;
+
+    p {
+        color: #00000080;
+        font-size: 13px;
+    }
+
+    .icon_header {
+        display: flex;
+
+        .icon {
+            display: flex;
+            padding-left: 10px;
+        }
+
+        .text_icon {
+            padding-right: 4px;
+            color: #00000080;
+        }
+    }
+}
+
+/* main */
+.cards {
+    
+}
+
+
+
