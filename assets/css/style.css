@@ -38,6 +38,12 @@ body {
         .text_icon {
             padding-right: 4px;
             color: #00000080;
+            font-size: 13px;
+            padding-top: 3.5px;
+        }
+
+        .bi {
+            font-size: 20px;
         }
     }
 
@@ -46,6 +52,87 @@ body {
 /* main */
 .cards {
 
+
+
+    .card {
+        border: 1px solid black;
+
+        .title_card {
+            padding-bottom: 1.5rem;
+
+            .text_title {
+                font-size: 14px;
+                color: #00000080;
+            }
+        }
+
+        .price {
+            display: flex;
+            padding-bottom: 1rem;
+
+            .number_price {
+                font-size: 3rem;
+            }
+
+            .dollar {
+                padding-top: 1.75rem;
+            }
+
+            .months {
+                padding-top: 1.75rem;
+            }
+        }
+
+        .off_15 {
+            display: flex;
+            padding-bottom: 1rem;
+
+            .sconto {
+                background-color: #00000025;
+                padding: 3px;
+                font-size: 12px;
+                border-radius: 5px;
+                margin-left: 4px;
+            }
+
+            .anno {
+                font-size: 13px;
+                padding-top: 2.5px;
+            }
+        }
+
+        .btn {
+            padding-bottom: 1rem;
+
+            button {
+                padding: 0.8rem 2.5rem;
+                border-radius: 0.6rem;
+                background-color: #6500ff;
+                color: white;
+                border: none;
+            }
+
+        }
+
+        .list_product {
+            
+            .product {
+                display: flex;
+                padding-bottom: 1rem;
+
+                .bi {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                    padding-top: 5px;
+                    padding-left: 7px;
+                }
+            }
+
+        }
+    }
 }
 
 
