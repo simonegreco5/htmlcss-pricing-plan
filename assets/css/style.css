@@ -51,11 +51,17 @@ body {
 
 /* main */
 .cards {
-
+    display: flex;
+    flex-wrap: wrap;
 
 
     .card {
-        border: 1px solid black;
+        box-shadow: 0 0 8px gray;
+        border-radius: 1rem;
+        /* flex-basis: calc(100% / 3); */
+        padding: 2rem;
+        margin:  auto;
+
 
         .title_card {
             padding-bottom: 1.5rem;
@@ -69,6 +75,7 @@ body {
         .price {
             display: flex;
             padding-bottom: 1rem;
+            justify-content: center;
 
             .number_price {
                 font-size: 3rem;
@@ -86,6 +93,7 @@ body {
         .off_15 {
             display: flex;
             padding-bottom: 1rem;
+            justify-content: center;
 
             .sconto {
                 background-color: #00000025;
@@ -98,15 +106,19 @@ body {
             .anno {
                 font-size: 13px;
                 padding-top: 2.5px;
+                color: #00000099;
             }
         }
 
         .btn {
+            display: flex;
             padding-bottom: 1rem;
+            justify-content: center;
 
-            button {
-                padding: 0.8rem 2.5rem;
-                border-radius: 0.6rem;
+
+            .btn_not {
+                padding: 0.9rem 3rem;
+                border-radius: 0.7rem;
                 background-color: #6500ff;
                 color: white;
                 border: none;
@@ -119,18 +131,58 @@ body {
             .product {
                 display: flex;
                 padding-bottom: 1rem;
+                padding-left: 1.5rem;
 
                 .bi {
                     font-size: 1.4rem;
+                    padding-right: 2px;
                 }
 
                 p {
                     font-size: 0.9rem;
                     padding-top: 5px;
                     padding-left: 7px;
+                    color: #00000099;
                 }
             }
 
+        }
+    }
+
+    .card_choose {
+        background-color: #6500ff;
+
+        .choose {
+            color: white;
+        }
+
+        .choose_text {
+            font-size: 0.9rem;
+            padding-top: 5px;
+            padding-left: 7px;
+            color: white;
+        }
+
+        .btn_choose {
+            padding: 0.9rem 3rem;
+                border-radius: 0.7rem;
+                color: #6500ff;
+                background-color: white;
+                border: none;
+        }
+
+        .anno_choose {
+                font-size: 13px;
+                padding-top: 2.5px;
+                color: white;
+        }
+
+        .sconto_choose {
+                background-color: #ffffffdb;
+                padding: 3px;
+                font-size: 12px;
+                border-radius: 5px;
+                margin-left: 4px;
         }
     }
 }
