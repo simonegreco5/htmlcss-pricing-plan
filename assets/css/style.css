@@ -19,7 +19,7 @@ body {
 
 /* header */
 .side_top {
-    padding: 2.5rem 3.5rem;
+    padding: 2.5rem 0.25rem;
     display: flex;
 
     p {
@@ -29,6 +29,7 @@ body {
 
     .icon_header {
         display: flex;
+        padding-left: 8rem;
 
         .icon {
             display: flex;
@@ -53,14 +54,14 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 
 
     .card {
         box-shadow: 0 0 8px gray;
         border-radius: 1rem;
-        /* flex-basis: calc(100% / 3); */
+        flex-basis: calc(100% / 3 - (15px * 2) / 3);
         padding: 2rem;
-        margin:  auto;
 
 
         .title_card {
